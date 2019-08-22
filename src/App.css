@@ -1,33 +1,75 @@
-.App {
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+
+body{
+
+    background-color: #282828
+
+}
+
+h1 {
+  font-family: Monsterrat Bold;
+  font-size: 65px;
+  margin-top:50px;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a{
   color: white;
+  text-decoration: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  height: 10px;
+  width: 290px;
+  background-color: #D02035;
+  margin:30px 315px;
+}
+p{
+  color: white;
+  font-family: Merriweather Regular;
+  font-size: 20px;
+  margin:30px 315px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+  margin:30px 315px;
+
+}
+input{
+height: 50px;
+width: 440px;
+font-family: Merriweather Italic;
+font-size: 16px;
+padding: 0 20px;
+
+
+}
+
+select{
+  height: 50px;
+  width: 440px;
+  font-family: Merriweather Italic;
+  font-size: 16px;
+  padding: 0 20px;
+  margin: 12px;
+  
+  
+}
+
+button{
+  color: white;
+  font-family:  Merriweather Bold;
+  font-size: 20px;
+  height: 50px;
+  width: 895px;
+  margin:0px 315px;
+  background-color: #D02035;
+  border: none;
 }

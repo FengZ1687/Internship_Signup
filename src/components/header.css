@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  
+  }
+  
+  body{
+  
+      background-color: #282828
+  
+  }
+  
+  h1 {
+    font-family: Monsterrat Bold;
+    font-size: 65px;
+    margin-top:50px;
+    color: white;
+    text-align: center;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .sidebar {
+    height: 10px;
+    width: 290px;
+    background-color: #D02035;
+    margin:30px 315px;
+  }
+  p{
+    color: white;
+    font-family: Merriweather Regular;
+    font-size: 20px;
+    margin:30px 315px;
+  }
+  p.error{
+    color: white;
+    font-family: Merriweather Regular;
+    font-size: 12px;
+    margin:0px 245px 0px;  
+  }
+
+  input.invalid{
+    border: 2px solid red;
+    
+
+  }
+
+  
+  
+  .info{
+    margin:30px 315px;
+  
+  }
+  input{
+  height: 50px;
+  width: 440px;
+  font-family: Merriweather Italic;
+  font-size: 16px;
+  padding: 0 20px;
+  
+  
+  }
+  
+  select{
+    height: 50px;
+    width: 440px;
+    font-family: Merriweather Italic;
+    font-size: 16px;
+    padding: 0 20px;
+    margin: 12px;
+    
+    
+  }
+  
+  button{
+    color: white;
+    font-family:  Merriweather Bold;
+    font-size: 20px;
+    height: 50px;
+    width: 895px;
+    margin:0px 315px;
+    background-color: #D02035;
+    border: none;
+  }
+  
